@@ -1,0 +1,32 @@
+import turtle
+from turtle import TurtleScreen
+from turtle import bgcolor
+from turtle import setworldcoordinates
+
+sam = turtle.Turtle()
+#sam2 = turtle.color()
+sam.setposition(300,70)
+sam.clear()
+sam.begin_fill()
+sam.fillcolor('green')
+sam.left(150)
+sam.forward(350)
+sam.dot(10,'maroon')
+sam.left(60)
+sam.forward(350)
+sam.left(60)
+sam.dot(10,'blue')
+sam.forward(35)
+sam.left(90)
+sam.dot(10,'red')
+sam.forward(608)
+sam.left(90)
+sam.dot(10,'blue')
+sam.forward(35)
+sam.right(360)
+sam.left(180)
+sam.dot(10,'red')
+sam.forward(35)
+sam.right(90)
+sam.forward(608)
+sam.end_fill()

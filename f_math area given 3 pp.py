@@ -1,0 +1,18 @@
+print("\t\t\tInput In Here Your Values\n\n")
+print("AREA\n")
+import math
+x1 = int(input("x1: "))
+y1 = int(input("y1: "))
+x2 = int(input("x2: "))
+y2 = int(input("y2: "))
+x3 = int(input("x3: "))
+y3 = int(input("y3: "))
+def area(x1,y1,x2,y2,x3,y3):
+    i1 = int(x1)
+    i2 = int(x2)
+    i3 = int(x3)
+    i4 = ( int(y2) - int(y3) )
+    i5 = ( int(y3) - int(y1))
+    i6 = (int(y1) - int(y2))
+    return ((( i1 * i4) + ( i2 * i5) + (i3 * i6))/2)
+print("Area = ",area(x1,y1,x2,y2,x3,y3))
